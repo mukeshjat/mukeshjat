@@ -96,7 +96,7 @@ justify-content: center;
     background: #78866b !important;
 }
 #light-mode{
-    background: #ffffff !important;
+    background: #f0ead6 !important;
 }
 #blue-mode{
     background: #192734 !important;
@@ -116,20 +116,23 @@ justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .preview-shdow{
-    /* background-color: var(--previewShadow); */
+ 
+  #boxbg{
+    background-color: #f0ead6;
     max-width: 300px;
     height: 180px;
     padding-left: 30px;
     padding-top: 30px;
   }
+  #previewbg{
+    background-color: #eaeaea;
+  }
   .preview {
     width: 300px;
     border: 1.5px solid #17a2b8;
-    /* background-color: var(--previewBg); */
     padding: 15px;
     position: relative;
-    line-height: 33px;
+    line-height: 28px;
   }
   .preview h3{
       margin: 28px 0;
@@ -234,11 +237,13 @@ justify-content: center;
   .footer-icons {
     width: 100%;
     text-align: center;
-    color: black;
     padding: 10px 0px;
+  }
+  .footer-icons a{
   }
   .footer-icons .svg {
     margin: 5px;
+    /* color: #000 !important; */
     font-size: 25px;
   }
   @media screen and (max-width: 800px) {
